@@ -4,18 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./CSS/fonts.css">
-    <link rel="stylesheet" href="./CSS/fonts.css">
-    <script defer src="./JS/script.js"></script>
+    <title>Lumi Portfolio</title>
     <script defer src="./JS/typed.js"></script>
+    <script defer src="./JS/script.js"></script>
+    <link rel="stylesheet" href="./CSS/fonts.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 
 <body>
-    <section>
+    <section id="header">
         <header>
-
+            <div id="logo">
+                <a href="./index.html">Lumi</a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="nav-icon">
+                <img id="hamburg" src="./Images/Icons/nav.png" alt="nav icon">
+                <img class="hidden" id="close" src="./Images/Icons/close.png" alt="close icon">
+            </div>
         </header>
+    </section>
+
+    <section id="hero">
+        <main class="grid">
+            <div id="myImage">
+                <img src="./Images/profile-img.png" alt="myImage">
+            </div>
+
+            <div id="myTitleGrid">
+                <div id="mini-1">
+                    <h3>Hello, I am</h3>
+                    <h1>Luminda Saranga</h1>
+                    <h2><span id="occupation"></span></h2>
+                </div>
+                <div id="mini-2">
+                    <a href="#">Download CV</a>
+                    <a href="#">Contact Me</a>
+                </div>
+                <div id="mini-3">
+                    <a href="#"><img src="./Images/Icons/email.png" alt="Email"></a>
+                    <a href="#"><img src="./Images/Icons/linkedin.png" alt="Linkedin"></a>
+                    <a href="#"><img src="./Images/Icons/github.png" alt="Github"></a>
+
+                </div>
+            </div>
+        </main>
     </section>
 </body>
 
