@@ -408,6 +408,10 @@ article {
   border-radius: 25px;
 }
 
+.ok {
+  transform: translateY(-12px);
+}
+
 .my-progress {
   display: flex;
   position: absolute;
