@@ -378,7 +378,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-around;
   place-content: center;
   place-items: center;
@@ -427,7 +427,7 @@ article {
   inset: 0;
   text-align: center;
   color: white;
-  font-size: small;
+  font-size: 11px;
 }
 
 .html {
@@ -485,43 +485,43 @@ article {
 }
 
 .html-p {
-  transform: translate(45px, -3px);
+  transform: translate(45px, -2px);
 }
 
 .css-p {
-  transform: translate(35px, -3px);
+  transform: translate(35px, -2px);
 }
 
 .js-p {
-  transform: translate(30px, -3px);
+  transform: translate(30px, -2px);
 }
 
 .php-p {
-  transform: translate(20px, -3px);
+  transform: translate(20px, -2px);
 }
 
 .mysql-p {
-  transform: translate(30px, -3px);
+  transform: translate(30px, -2px);
 }
 
 .java-p {
-  transform: translate(15px, -3px);
+  transform: translate(15px, -2px);
 }
 
 .c-p {
-  transform: translate(15px, -3px);
+  transform: translate(15px, -2px);
 }
 
 .vb-p {
-  transform: translate(45px, -3px);
+  transform: translate(45px, -2px);
 }
 
 .git-p {
-  transform: translate(20px, -3px);
+  transform: translate(20px, -2px);
 }
 
 .postcss-p {
-  transform: translate(25px, -3px);
+  transform: translate(25px, -2px);
 }
 
 /* --------------------- */
