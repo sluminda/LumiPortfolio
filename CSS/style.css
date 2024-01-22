@@ -404,16 +404,20 @@ article {
   position: relative;
   width: 150px;
   height: 15px;
-  border: 1px solid;
+  outline: 1px solid gray;
   border-radius: 25px;
 }
 
 .my-progress {
   display: flex;
   position: absolute;
-  height: 14px;
-  border: 1px solid;
-  background-color: rgb(53, 53, 53);
+  height: 15px;
+  border: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.884),
+    rgba(122, 122, 122, 0.938)
+  );
   border-radius: 25px;
 }
 
@@ -485,43 +489,43 @@ article {
 }
 
 .html-p {
-  transform: translate(45px, -2px);
+  transform: translate(45px, -1px);
 }
 
 .css-p {
-  transform: translate(35px, -2px);
+  transform: translate(35px, -1px);
 }
 
 .js-p {
-  transform: translate(30px, -2px);
+  transform: translate(30px, -1px);
 }
 
 .php-p {
-  transform: translate(20px, -2px);
+  transform: translate(20px, -1px);
 }
 
 .mysql-p {
-  transform: translate(30px, -2px);
+  transform: translate(30px, -1px);
 }
 
 .java-p {
-  transform: translate(15px, -2px);
+  transform: translate(15px, -1px);
 }
 
 .c-p {
-  transform: translate(15px, -2px);
+  transform: translate(15px, -1px);
 }
 
 .vb-p {
-  transform: translate(45px, -2px);
+  transform: translate(45px, -1px);
 }
 
 .git-p {
-  transform: translate(20px, -2px);
+  transform: translate(20px, -1px);
 }
 
 .postcss-p {
-  transform: translate(25px, -2px);
+  transform: translate(25px, -1px);
 }
 
 /* --------------------- */
