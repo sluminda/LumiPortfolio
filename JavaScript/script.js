@@ -8,7 +8,8 @@ function toggleMenu() {
 var typed = new Typed("#occupation", {
   strings: ["Front-End Developer", "Hardware Technician", "Network Technician"],
   typeSpeed: 70,
-  backSpeed: 50,
-  Delay: 20,
+  backSpeed: 30,
+  backDelay: 1000,
   loop: true,
+  smartBackspace: true,
 });
