@@ -450,6 +450,10 @@ article {
   width: 55%;
 }
 
+.react {
+  width: 35%;
+}
+
 .php {
   width: 45%;
 }
@@ -502,6 +506,10 @@ article {
 
 .js-p {
   transform: translate(30px, -1px);
+}
+
+.react-p {
+  transform: translate(15px, -1px);
 }
 
 .php-p {
